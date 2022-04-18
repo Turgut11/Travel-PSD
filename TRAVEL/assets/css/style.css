@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --open: "Open Sans", sans-serif;
+    --mont: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* FIRSTHEAD CSS START */
+
+
+#firsthead {
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#firsthead nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+#firsthead nav i {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.header-body h1{
+    font: 300 52px var(--open);
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 215px;
+}
+
+.header-body form input{
+    width: 326px;
+    font: 400 16px var(--open);
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    outline: none;
+    border: none;
+    padding: 15px 0 15px 15px;
+}
+
+.header-body form button {
+    font: bold 16px var(--open);
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 50px;
+    background-color: #fd4f32;
+    border: none;
+    cursor: pointer;
+}
+
+.header-body form{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    padding-bottom: 205px;
+}
+
+
+/* SECONDHEAD CSS START */
+
+#secondhead{
+    background-color: #eeeeee;
+    padding: 55px 100px 65px 100px;
+}
+
+#secondhead .captions h2{
+    font: bold 16px var(--mont);
+letter-spacing: 0px;
+color: #323232;
+}
+
+#secondhead .captions h3{
+    font: 400 15px var(--open);
+letter-spacing: 0px;
+color: #8b8b8b;
+}
+
+#secondhead .step{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0 0 0;
+}
+
+.step div{
+    background-color: #fff;
+    margin: 0 10px 0 0;
+}
+
+.step div h2{
+    font: bold 14px var(--mont);
+letter-spacing: 0px;
+color: #323232;
+padding: 20px 55px 18px 18px;
+}
+
+.step div p{
+    font: 400 13px var(--open);
+    width: 204px;
+height: 75px;
+line-height: 19px;
+color: #696969;
+padding: 0 0 20px 20px;
+}
+
+
+/* THIRD CSS START */
+
+#thirdhead{
+    background-color: #ffffff;
+    padding: 78px 0 0 0;
+}
+
+#thirdhead h1{
+    font: 300 52px var(--open);
+letter-spacing: 2px;
+color: #323232;
+}
+
+#thirdhead .box{
+    display: flex;
+    justify-content: space-between;
+    margin: 56px 72px 73px 0;
+}
+
+#thirdhead .box h2{
+    font: bold 16px var(--mont);
+    letter-spacing: 0px;
+    color: #323232;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+#thirdhead .box p{
+    font: 400 15px var(--open);
+    width: 348px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+}
+
+#thirdhead .body h2{
+    font: bold 16px var(--mont);
+letter-spacing: 0px;
+color: #323232;
+text-align: center;
+}
+
+#thirdhead .body input{
+    font: 400 16px var(--open);
+letter-spacing: 1px;
+color: #8b8b8b;
+background-color: #eeeeee;
+border: none;
+outline: none;
+width: 326px;
+padding: 15px 0 15px 15px;
+}
+
+#thirdhead .body button{
+    font: 700 16px var(--open);
+    letter-spacing: 1px;
+    color: #ffffff;
+background-color: #fd4f32;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 15px 50px;
+}
+
+
+#thirdhead .body form{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+margin-bottom: 80px;
+} 
+
+
+/* FOOTER CSS START */
+
+#footer{
+   background-color: #eeeeee;
+   padding: 30px 0 20px 0;
+}
+
+#footer .container div{
+    display: flex;
+    justify-content: space-between
+}
+
+#footer .container p{
+    font: 400 14px var(--open);
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+}
+
+#footer .container a{
+    display: inline;
+    font: bold 14px var(--mont);
+letter-spacing: 0px;
+color: #323232;
+margin: 10px;
+text-align: center;
+text-decoration: none;
+}
+
+#footer a:hover{
+    background-color: #eeeeee;
+    color: #fd4f32;
+}
+
+
+@media only screen and (max-width:768px){
+    .container {
+        max-width: 300px;
+    }
+
+    .header-body h1{
+        font: 300 32px var(--open);
+    }
+
+    #secondhead .step{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #secondhead .step div{
+        margin-top: 30px;
+    }
+
+    .captions{
+        text-align: center;
+    }
+
+    #thirdhead .box{
+        flex-direction: column;
+        align-items: center;
+        margin: 56px 0 0 0;
+    }
+
+    #thirdhead .box div{
+        margin-top: 30px;
+        margin-bottom: 20px;
+       }
+
+    #thirdhead .box h2, p,  #thirdhead h1{
+        text-align: center;
+     }
+ 
+     #thirdhead h1 {
+        font: 300 32px var(--open);
+    }
+
+    #thirdhead .body button {
+        padding: 15px 10px;
+    }
+
+    #thirdhead .body{
+        padding-right: 0;
+    }
+
+    #footer{
+        flex-direction: column;
+        padding: 27px 0 15px 0;
+     }
+     
+    #footer p {
+        margin: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
